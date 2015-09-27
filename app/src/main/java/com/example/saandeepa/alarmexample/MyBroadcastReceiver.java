@@ -53,6 +53,7 @@ public class MyBroadcastReceiver extends BroadcastReceiver {
         //builds notification and issues it
         NotificationManager nm = (NotificationManager)context.getSystemService(context.NOTIFICATION_SERVICE);
         nm.notify(uniqueID,notification.build());
+        //hello there
 
 
 
